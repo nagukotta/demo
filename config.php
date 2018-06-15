@@ -20,3 +20,7 @@ if (mysqli_connect_errno()) {
 	exit();
 }
 
+
+function new(){
+echo "helooooooooooo";
+}
