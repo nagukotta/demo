@@ -12,7 +12,7 @@ define('DB_HOST', 'localhost');
 define('DB_NAME', 'test');
 define('DB_USERNAME','root');
 define('DB_PASSWORD','');
-
+   
 
 $mysqli  = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME);
 if (mysqli_connect_errno()) {
@@ -21,6 +21,12 @@ if (mysqli_connect_errno()) {
 }
 
 
+ 
 function new(){
 echo "helooooooooooo";
 }
+=======
+function myconnection(){
+	
+}
+ 
