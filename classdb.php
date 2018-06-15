@@ -9,6 +9,12 @@ var $pass = "";
 var $db1   ="test";
 var $qur ="mysql_query";
 
+   
+   // test changes
+   
+   function test_abcd(){
+        echo "test function";
+   }
 
 function db_connection(){
 
